@@ -220,7 +220,7 @@ var addPrompt = function addPrompt(i) {
       onInputChange();
       addPrompt(i + 1);
     }
-  }, 100);
+  }, 300);
 };
 
 resizePage();
