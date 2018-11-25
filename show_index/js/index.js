@@ -44,7 +44,7 @@ var height = window.innerHeight;
 var textSize = 0;
 var textCenter = 0;
 var letters = [];
-var prompt = ['hello','w',' ','i','`','m',' ','t','q','k','&',' ','from',' ','he.nan'];
+var prompt = ['h','e','l','l','o','w',' ','i','`','m',' ','t','q','k','&',' ','from',' ','he.nan'];
 var runPrompt = true;
 
 var resizePage = function resizePage() {
@@ -98,7 +98,7 @@ var addDecor = function addDecor(letter, color) {
     }for (var i = 0; i < 8; i++) {
       addCirc(x0, y0);
     }
-  }, 50);
+  }, 100);
 };
 
 var addTri = function addTri(x0, y0, shade) {
@@ -220,7 +220,7 @@ var addPrompt = function addPrompt(i) {
       onInputChange();
       addPrompt(i + 1);
     }
-  }, 300);
+  }, 100);
 };
 
 resizePage();
