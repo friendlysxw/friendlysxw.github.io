@@ -98,7 +98,7 @@ var addDecor = function addDecor(letter, color) {
     }for (var i = 0; i < 8; i++) {
       addCirc(x0, y0);
     }
-  }, 100);
+  }, 50);
 };
 
 var addTri = function addTri(x0, y0, shade) {
