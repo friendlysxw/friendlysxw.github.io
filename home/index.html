@@ -14,6 +14,7 @@
     <meta name="browsermode" content="application">
     <meta name="screen-orientation" content="portrait">
     <link rel="dns-prefetch" href="https://friendlysxw.github.io/hexo_blog_tqk">
+    <link rel="stylesheet" href="/dist/APlayer.min.css">
     <!--SEO-->
 
 <meta name="description" content="一个IT小白的成长笔记">
@@ -81,8 +82,7 @@
         })();
     </script>
 
-    <script src="https://cdn.bootcss.com/aplayer/1.6.0/APlayer.min.js"></script>
-    <script src="https://api.i-meto.com/music/player.js"></script>
+    
 </head>
 
 </html>
@@ -148,7 +148,6 @@
         </div>
     </div>
 </nav>
-    <div class="aplayer" data-id="2530701647" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true"></div>
     <section class="content-wrap">
         <div class="container">
             <div class="row">
@@ -162,7 +161,7 @@
     
         <div class="post-media">
             <a href="/2018/11/24/e9bc0c14.html">
-                <img class="img-ajax" src="/img/loading.gif" data-src="/" alt="hexo极速搭建个人博客">
+                <img class="img-ajax" src="/img/loading.gif" data-src="/i" alt="hexo极速搭建个人博客">
             </a>
         </div>
     
@@ -240,6 +239,9 @@
                 
                     
     <aside class="col-md-4 sidebar">
+        <div id="aplayer"></div>
+        <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+        <script type="text/javascript" src="/dist/music.js"></script>
         
         
     <div class="widget">
@@ -251,8 +253,6 @@
                     <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢？">
                     <button type="button" class="search-form-submit" id="search-local">站内搜索</button>
                 
-                
-                    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Google Search"><button type="submit" class="search-form-submit">谷歌搜索</button><input type="hidden" name="sitesearch" value="https://friendlysxw.github.io/hexo_blog_tqk"></form>
                 
             </div>
             <div id="result-wrap" class="hide">
