@@ -223,7 +223,7 @@
 <h3 id="6-编译页面"><a href="#6-编译页面" class="headerlink" title="6.编译页面"></a>6.编译页面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g | generate    <span class="comment">#把markdown文件编译成html文件</span></span><br></pre></td></tr></table></figure>
 <p>或</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate --watch  <span class="comment">#Hexo 能够监视文件变动并立即重新生成静态文件，在生成时会比对文件的 SHA1 						 checksum，只有变动的文件才会写入。</span></span><br></pre></td></tr></table></figure>
-<h3 id="7-本地测试"><a href="#7-本地测试" class="headerlink" title="7.本地测试"></a>7.本地测试</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s | server</span><br></pre></td></tr></table></figure>
+<h3 id="7-本地测试"><a href="#7-本地测试" class="headerlink" title="7.本地测试"></a>7.本地测试</h3><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s <span class="string">| server</span></span><br></pre></td></tr></table></figure>
 <h3 id="8-部署，将博客推送到远程平台"><a href="#8-部署，将博客推送到远程平台" class="headerlink" title="8.部署，将博客推送到远程平台"></a>8.部署，将博客推送到远程平台</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d | deploy		<span class="comment">#部署后就可以通过域名愉快的访问网站啦</span></span><br></pre></td></tr></table></figure>
 <h3 id="9-其它自己多看看官方文档，多百度吧ヽ-￣▽￣-ﾉ"><a href="#9-其它自己多看看官方文档，多百度吧ヽ-￣▽￣-ﾉ" class="headerlink" title="9.其它自己多看看官方文档，多百度吧ヽ(￣▽￣)ﾉ"></a>9.其它自己多看看官方文档，多百度吧ヽ(￣▽￣)ﾉ</h3>
     </div>
@@ -263,7 +263,7 @@
             notify: false,
             verify: true,
             avatar: 'wavatar',
-            meta: 'nick,mail,link'.split(','),
+            meta: 'nick,mail'.split(','),
             pageSize: '10',
             path: window.location.pathname,
             lang: 'zh-CN'.toLowerCase()
