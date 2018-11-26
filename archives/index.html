@@ -184,17 +184,7 @@
                 
                     
     <aside class="col-md-4 sidebar">
-        <iframe src="/music/index.html" id="iframepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onload="iFrameHeight()"></iframe>
-        <script>
-            function iFrameHeight() {   
-                var ifm= document.getElementById("iframepage");   
-                var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;   
-                if(ifm != null && subWeb != null) {
-                    ifm.height = subWeb.body.scrollHeight;
-                    ifm.width = subWeb.body.scrollWidth;
-                }   
-            } 
-        </script>
+        <iframe src="/music/index.html" id="iframe" frameborder="0" width="100%"></iframe>
         
         
     <div class="widget">

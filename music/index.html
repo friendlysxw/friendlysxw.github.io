@@ -7,10 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="/music/APlayer.min.css">
     <style>
-        /* body {margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;overflow: hidden;} */
+        body {margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;overflow: hidden;}
     </style>
 </head>
-<body>
+<body onresize="show()" onload="show()">
         <div id="aplayer">
         <!-- 鹿港小镇 -->
             <pre class="aplayer-lrc-content">
@@ -225,5 +225,11 @@
         </div>
     <script type="text/javascript" src="/music/APlayer.min.js"></script>
     <script type="text/javascript" src="/music/music.js"></script>
+    <script>
+        function show(){
+             parent.document.getElementById("iframe").height=document.body.scrollHeight;
+        }
+       
+    </script>
 </body>
 </html>
