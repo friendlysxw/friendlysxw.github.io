@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="/music/APlayer.min.css">
+    <style>
+        /* body {margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;overflow: hidden;} */
+    </style>
 </head>
 <body>
         <div id="aplayer">
@@ -224,3 +227,8 @@
     <script type="text/javascript" src="/music/music.js"></script>
 </body>
 </html>
+<script>
+    parent.document.getElementById("iframe").height=0;
+
+    parent.document.getElementById("iframe").height=document.body.scrollHeight;
+</script>
