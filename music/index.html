@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/music/APlayer.min.css">
     <style>
-        body {margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;overflow: hidden;}
+        body {overflow: hidden;}
     </style>
 </head>
 <body onresize="show()" onload="show()">
@@ -176,7 +176,6 @@
     <script type="text/javascript" src="/music/music.js"></script>
     <script>
         function show(){
-            console.log(document.getElementById("aplayer").height)
             top.document.getElementById("iframe").height=document.getElementById("aplayer").height;
             // top.document.getElementById("iframe").height=document.body.scrollHeight;
         }
