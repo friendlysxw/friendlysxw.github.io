@@ -1,0 +1,8 @@
+<% if(theme.widgets && theme.widgets.length >0){ %>
+    <aside class="col-md-4 sidebar">
+        <iframe src="/music/index.html" id="iframe" frameborder="0" width="100%" scrolling="auto"></iframe>
+        <% theme.widgets.forEach(function(widget){ %>
+        <%- partial('_widget/' + widget) %>
+        <% }) %>
+    </aside>
+<%}%>
