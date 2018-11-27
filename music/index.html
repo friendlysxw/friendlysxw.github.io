@@ -8,14 +8,12 @@
     <link rel="stylesheet" href="/music/APlayer.min.css">
     <style>
         body {
+            margin:0px;
             overflow: hidden;
-        }
-        #aplayer{
-            margin:0;
         }
     </style>
 </head>
-<body onload="rf_load()" onresize="rf_resize()">
+<body onload="rf_resize()" onresize="rf_resize()">
         <div id="aplayer">
         <!-- 鹿港小镇 -->
             <pre class="aplayer-lrc-content">
@@ -181,12 +179,9 @@
     <script type="text/javascript" src="/music/music.js"></script>
     <script>
         function rf_resize(){
+            window.top.document.getElementById("iframe").height=document.getElementById("aplayer").height;
             window.top.document.getElementById("iframe").height=document.body.scrollHeight;
         }
-        function rf_load(){
-            window.top.document.getElementById("iframe").height=document.getElementById("aplayer").height;
-        }
-
     </script>
 </body>
 </html>
