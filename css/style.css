@@ -951,6 +951,17 @@ pre {
 .widget .social a i {
   font-size: 20px;
 }
+/* 添加样式s */
+.widget .social .account{
+  position: relative;
+}
+.widget .social .account span{
+  position: absolute;
+  background: #e67e22;
+  color: #fff;
+  font-size: 14px;
+}
+/* 添加样式e */
 .widget .friends-link a {
   margin-right: 15px;
 }
