@@ -14,8 +14,8 @@
         }
     </style>
 </head>
-<body onresize="show()">
-        <div id="aplayer">
+<body>
+        <div id="aplayer" onresize="rf_show()">
         <!-- 鹿港小镇 -->
             <pre class="aplayer-lrc-content">
                 [00:06.050].
@@ -179,8 +179,9 @@
     <script type="text/javascript" src="/music/APlayer.min.js"></script>
     <script type="text/javascript" src="/music/music.js"></script>
     <script>
-        function show(){
+        function rf_show(){
             top.document.getElementById("iframe").height=document.body.scrollHeight;
+            // top.document.getElementById("iframe").height=document.body.scrollHeight;
         }
     </script>
 </body>
