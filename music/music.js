@@ -5,7 +5,7 @@ const ap = new APlayer({
     theme: '#FADFA3', //主题色
     loop: 'all', //音频循环播放, 可选值: 'all'全部循环, 'one'单曲循环, 'none'不循环
     order: 'random', //音频循环顺序, 可选值: 'list'列表循环, 'random'随机循环
-    preload: 'auto', //预加载，可选值: 'none', 'metadata', 'auto'
+    preload: 'none', //预加载，可选值: 'none', 'metadata', 'auto'
     volume: 0.7, //默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
     mutex: true, //互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器
     listFolded: true, //列表默认折叠
@@ -25,14 +25,6 @@ const ap = new APlayer({
             artist: '苏浩',
             url: 'http://music.163.com/song/media/outer/url?id=438466179.mp3',
             cover: 'http://p1.music.126.net/jaFuzydptk97fcE8OsKs1Q==/1407374900136692.jpg?param=130y130',
-            // lrc: 'lrc2.lrc',
-            theme: '#46718b'
-        },
-        {
-            name: '给女儿的一封信', //如果只有一首歌，删掉这一块，如有更多歌曲按此格式逐渐往下添加
-            artist: '张杰',
-            url: 'http://music.163.com/song/media/outer/url?id=561307188.mp3',
-            cover: 'http://p1.music.126.net/OOe6AHsW3aMRSfgLyTEQNw==/109951163298710803.jpg?param=130y130',
             // lrc: 'lrc2.lrc',
             theme: '#46718b'
         }
