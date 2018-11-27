@@ -181,10 +181,10 @@
     <script type="text/javascript" src="/music/music.js"></script>
     <script>
         function rf_resize(){
-            top.document.getElementById("iframe").height=document.body.scrollHeight;
+            window.top.document.getElementById("iframe").height=document.body.scrollHeight;
         }
         function rf_load(){
-            top.document.getElementById("iframe").height=document.getElementById("aplayer").height;
+            window.top.document.getElementById("iframe").height=document.getElementById("aplayer").height;
         }
 
     </script>
