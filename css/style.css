@@ -960,6 +960,15 @@ pre {
   background: #e67e22;
   color: #fff;
   font-size: 14px;
+  box-sizing: content-box;
+  height: 100%;
+  padding: 0px 30%;
+  top: -105%;
+  left: 0;
+  display: none;
+}
+.widget .social .account:hover span,.widget .social .account:active span{
+  display:block;
 }
 /* 添加样式e */
 .widget .friends-link a {
