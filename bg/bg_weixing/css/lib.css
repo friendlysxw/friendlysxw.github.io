@@ -8,8 +8,12 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #22292C;
+    /* background-color: #22292C; */
     perspective: 1000px;
+    background-image: -webkit-linear-gradient(90deg, #395ecb 0%, #3657be 25%, #242161 60%, #1a0531 100%);
+    background-image: -moz-linear-gradient(90deg, #395ecb 0%, #3657be 25%, #242161 60%, #1a0531 100%);
+    background-image: -ms-linear-gradient(90deg, #395ecb 0%, #3657be 25%, #242161 60%, #1a0531 100%);
+    background-image: linear-gradient(0deg, #395ecb 0%, #3657be 25%, #242161 60%, #1a0531 100%);
 }
 
 .bg0 {
