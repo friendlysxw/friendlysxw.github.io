@@ -951,6 +951,26 @@ pre {
 .widget .social a i {
   font-size: 20px;
 }
+/* 添加样式s */
+.widget .social .account{
+  position: relative;
+}
+.widget .social .account span{
+  position: absolute;
+  background: #e67e22;
+  color: #fff;
+  font-size: 14px;
+  box-sizing: content-box;
+  height: 100%;
+  padding: 0px 30%;
+  top: -105%;
+  left: 0;
+  display: none;
+}
+.widget .social .account:hover span,.widget .social .account:active span{
+  display:block;
+}
+/* 添加样式e */
 .widget .friends-link a {
   margin-right: 15px;
 }
@@ -1483,7 +1503,7 @@ pre .javascript .function {
 ====================================================*/
 ::-webkit-scrollbar {
   -webkit-appearance: none;
-  height: 5px;
+  height: 10px;
   width: 5px;
 }
 ::-webkit-scrollbar-track {
@@ -1493,10 +1513,10 @@ pre .javascript .function {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  background-color: rgba(1, 1, 1, 0.12);
+  background-color: #ccc;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(1, 1, 1, 0.22);
+  background-color: #ccc;
 }
 /*====================================================
     media

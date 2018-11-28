@@ -64,13 +64,16 @@ social:
    href: //github.com/friendlysxw
  - name: 邮箱
    icon: envelope-o
-   href: www.friendlysxw@163.com
+   href: 
+   account: friendlysxw@163.com
  - name: 联系QQ
    icon: qq
-   href: /
+   href: 
+   account: 2867987085
  - name: 微信
    icon: weixin
    href: /
+   account: sxw041646
  - name: RSS
    icon: feed
    href: /atom.xml
@@ -122,7 +125,8 @@ carousel:
 homePanel: true
 
 ## 缩略图自定义随机图片
-defaultImgs: /img/loading.gif
+defaultImgs: 
+    - /img/loading.gif
 
 ## 截取文章首页描述字数
 excerptLength: 120
@@ -146,10 +150,10 @@ warning:
 
 ## 文章内声明
 declaration:
-  enable: true
+  enable: false
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+       商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
 
 ## 文章打赏
 reward:
@@ -195,7 +199,7 @@ valine:
    enable: true
    appId: CruYqRe6MRbSARmzqh0ObdhU-gzGzoHsz
    appKey: 33iP2kOLPGSHrhddV2KExopk
-   placeholder: ヾﾉ≧∀≦)o来啊，快活啊!
+   placeholder: ヾﾉ≧∀≦)o来啊，快活啊! (为了防止刷评论，启用了评论验证，请理解)
    notify: false
    verify: true
    avatar: wavatar

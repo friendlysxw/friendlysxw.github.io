@@ -3,9 +3,16 @@
       <h3 class="title"><%= __('social') %></h3> 
         <div class="content social">
             <% theme.social.forEach(function (item) {%>
-	            <a href="<%- item.href%>" rel="external nofollow" title="<%- item.name%>" target="_blank">
-			    	<i class="<%- item.icon%> fa fa-<%- item.icon%>"></i>
-			    </a>
+                <% if(item.name=='Github'||item.name=='RSS'){%>
+                    <a href="<%- item.href%>" rel="external nofollow" title="<%- item.name%>" target="_blank">
+                        <i class="<%- item.icon%> fa fa-<%- item.icon%>"></i>
+                    </a>
+                <% }else{%>
+                    <a href="javascript:;" rel="external nofollow" title="<%- item.name%>" class="account">
+                        <i class="<%- item.icon%> fa fa-<%- item.icon%>"></i>
+                        <span><%-item.account%></span>
+                    </a>
+                <% }%>
             <%})%>
         </div>
     </div>

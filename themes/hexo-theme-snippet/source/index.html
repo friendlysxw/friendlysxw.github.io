@@ -74,7 +74,7 @@
                 border-radius: 50%;
                 box-shadow: 0em 0em 3em #fff;
             }
-            .face:active img{
+            .face:hover img,.face:active img{
                 width:8em;
             }
             .btn {
@@ -90,7 +90,7 @@
                 outline: none;
                 padding: 0.2em 1em;
             }
-            .btn:active{
+            .btn:hover,.btn:active{
                 padding: 0.3em 1.1em;
             }
         }
@@ -150,9 +150,10 @@
 </head>
 
 <body>
-    <a href="/home/index" class="face">
+    <iframe src="/bg/bg_weixing/index.html" frameborder="0" width="100%" height="100%"></iframe>
+    <!-- <a href="/home/index" class="face">
         <img src="/img/avatar.jpg" alt="">
-    </a>
+    </a> -->
     <button class="btn" onclick="location.href='/home/index'">听曲客 ♂</button>
 
     <p id="offscreen-text" class="offscreen-text"></p>

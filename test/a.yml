@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://friendlysxw.github.io/friendlysxw.github.io
 root: /
-permalink: :year/:month/:abbrlink.html
+permalink: :year/:month/:title.html
 permalink_defaults: :year/:month/:title.html
 
 abbrlink:  
@@ -44,7 +44,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
