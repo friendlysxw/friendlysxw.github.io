@@ -5,11 +5,10 @@ tags:
   - hexo
   - git
 abbrlink: e9bc0c14
+img: 2018/11/e9bc0c14/1543307893528.png
 ---
 
 ## hexo快速搭建流程,(主配置基础分析)
-
-![](hexo基础使用/1543307893528.png)
 
 ### 1.环境搭建及hexo框架安装
 需要`Node.js` 环境、`Git` 环境以及 `Hexo` ,如果你尚未安装或者不了解 Hexo，请参考 [hexo官方文档 ](https://hexo.io/zh-cn/docs/) 进行了解以及安装。
