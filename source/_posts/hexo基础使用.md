@@ -1,21 +1,23 @@
 ---
-title: hexo极速搭建个人博客(基础篇)
+title: hexo极速搭建个人博客
 categories: 工具
 tags:
   - hexo
   - git
 abbrlink: e9bc0c14
-img: /2018/11/e9bc0c14/1543307893528.png
 ---
 
 ## hexo快速搭建流程,(主配置基础分析)
+
+![](hexo基础使用/1543307893528.png)
 
 ### 1.环境搭建及hexo框架安装
 需要`Node.js` 环境、`Git` 环境以及 `Hexo` ,如果你尚未安装或者不了解 Hexo，请参考 [hexo官方文档 ](https://hexo.io/zh-cn/docs/) 进行了解以及安装。
 
 ### 2,修改根目录下_config.yml全局配置文件,修改其中主要配置项
-`===start 与 ===end之间为主要配置项(建站初期配置,后期慢慢摸索,都是有规律的)`
-~~~yaml
+
+```yaml
+#====start与=====end之间为主要配置项
 
 #主要配置项（重要）=======其它要自己多研究了=======start
 
@@ -28,13 +30,9 @@ author: 听曲客                    #站点作者
 language: zh-CN                   #站点语言
 timezone:	         #网站时区。Hexo默认使用您电脑的时区。时区列表：America/New_York.. 
  
-#域名访问配置 
-#博客托管在github时请务必将你的博客项目名设置为(你的github用户名.github.io)
-#1,是容易识别
-#2,(博主踩坑)有些路径会出问题,比如保存在本地的文章图片路径(当然你想用其它名称也可以,只要你研究的够深)
-
-url:  https://username.github.io/username.github.io  #博客项目路径     
-root: /    #项目根目录  
+ #域名访问配置 
+url:         #(没有自定义域名: GitHub Pages给你的域名),(有自定义域名: 域名/博客的项目名)
+root:        #(没有自定义域名: 项目名称),(有自定义域名: /)
 
 #主要配置项================================end
 
@@ -112,16 +110,16 @@ per_page: 10
 pagination_dir: page
 
 #主要配置项(重要)================================start
-#选择网站用的hexo主题名称(themes/主题文件夹名称)
+#选择网站用的主题名称(themes/主题文件夹名称)
 theme: landscape #默认的	
 
-#配置博客项目部署(为了)
+#配置博客项目部署
 deploy:
-  type: git        #指定项目部署的平台(git,coding,,,,)
-  repo: https://username.github.io/username.github.io	#指定部署的项目路径
+  type: git        #指定项目托管的平台(git,coding,,,,)
+  repo: https://github.com/friendlysxw/hexo_blog_tqk.git	#指定项目路径
   branch: master   #指定要部署的分支
 #主要配置项================================end
-~~~
+```
 
 
 
@@ -156,7 +154,8 @@ hexo g | hexo generate    #把.md文件编译成html文件
 或
 
 ~~~bash
-hexo generate --watch  #Hexo 能够监视文件变动并立即重新生成静态文件，在生成时会比对文件的 SHA1 						 checksum，只有变动的文件才会写入,速度很慢。
+hexo generate --watch  #Hexo 能够监视文件变动并立即重新生成静态文件，在生成时会比对文件的变动
+					             #只有变动的文件才会写入,速度很慢。
 ~~~
 
 ### 7.本地测试
@@ -175,5 +174,5 @@ hexo d | deploy		#部署后就可以通过域名愉快的访问网站啦
 7,8可一起执行：hexo g -d
 ```
 
-### 9.其它自己多百度，或评论说明你的问题，一起解决ヽ(￣▽￣)ﾉ
+### 9.其它自己多看看官方文档，多百度，也可留言给我，一起解决ヽ(￣▽￣)ﾉ
 
