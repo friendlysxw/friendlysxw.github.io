@@ -4,9 +4,9 @@ node_js: stable
 sudo: false
 
 #cache
-cache:
-  directories:
-    - "node_modules"
+# cache:
+#   directories:
+#     - "node_modules"
 
 notifications:
   email:
