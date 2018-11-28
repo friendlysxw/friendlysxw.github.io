@@ -3,10 +3,10 @@ node_js: stable
 
 sudo: false
 
-#cache
-# cache:
-#   directories:
-#     - "node_modules"
+cache
+cache:
+  directories:
+    - "node_modules"
 
 notifications:
   email:
@@ -27,7 +27,7 @@ before_script:
   - chmod +x _travis.sh
 
 script:
-  - hexo clean 
+  # - hexo clean 
   - hexo g
   # - gulp
 
