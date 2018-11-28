@@ -41,9 +41,9 @@ after_script:
 
 branches:
   only:
-    - dev
+    - hexo
 env:
  global:
-   - GH_REF: github.com/shenliyang/shenliyang.github.io.git
-   - GITEE_REF: gitee.com/shenliyang/shenliyang.git
+   - GH_REF: github.com/friendlysxw/friendlysxw.github.io.git
+   - GITEE_REF: github.com/friendlysxw/friendlysxw.github.io.git
 
