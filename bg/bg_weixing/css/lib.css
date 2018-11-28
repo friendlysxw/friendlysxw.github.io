@@ -24,21 +24,21 @@ body {
 .bg0 img{
     width: 100%;
     border-radius: 50%;
-    box-shadow: 0em 0em 3em #fff;
+    box-shadow: 0em 0em 5em #fff;
 }
 
 .hx-box {
     top: 20%;
     left: 50%;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     transform-style: preserve-3d;
     transform: translate(-50%, -50%) rotateY(75deg);
 }
 
 .hx-box ul {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     transform-style: preserve-3d;
     animation: hxz 20s linear infinite;
 }
@@ -53,8 +53,8 @@ body {
 }
 
 .hx-box ul li {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     border: 4px solid #5ec0ff;
     border-radius: 1000px;
 }
