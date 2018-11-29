@@ -207,17 +207,17 @@
     </div>
     
     <div class="post-body post-content">
-        <p>####本地仓库与远程仓库连接后，向远处仓库推送代码时报错：</p>
+        <h3 id="本地仓库与远程仓库连接后-向远处仓库推送代码时报错："><a class="header-anchor" href="#本地仓库与远程仓库连接后-向远处仓库推送代码时报错："></a>本地仓库与远程仓库连接后，向远处仓库推送代码时报错：</h3>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error: failed to push some refs to &apos;https://github.com/friendlysxw/shop_app.git&apos;</span><br></pre></td></tr></table></figure>
-<p>####说无法提交，然后提示我们可以尝试先pull(本地与远程合并,不会覆盖)然后再push</p>
+<h3 id="说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖-然后再push"><a class="header-anchor" href="#说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖-然后再push"></a>说无法提交，然后提示我们可以尝试先pull(本地与远程合并,不会覆盖)然后再push</h3>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hint: &apos;git pull ...&apos;) before pushing again.</span><br></pre></td></tr></table></figure>
-<h4 id="然后又报错-说检查本地仓库与远程仓库没有关系-无法合并"><a class="header-anchor" href="#然后又报错-说检查本地仓库与远程仓库没有关系-无法合并"></a>然后又报错,说检查本地仓库与远程仓库没有关系,无法合并</h4>
+<h3 id="然后又报错-说检查本地仓库与远程仓库没有关系-无法合并"><a class="header-anchor" href="#然后又报错-说检查本地仓库与远程仓库没有关系-无法合并"></a>然后又报错,说检查本地仓库与远程仓库没有关系,无法合并</h3>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
-<p>####具体的解决方法:</p>
+<h3 id="具体的解决方法"><a class="header-anchor" href="#具体的解决方法"></a>具体的解决方法:</h3>
 <p><code>git pull</code>时使用这个强制的方法 ：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master --allow-unrelated-histories</span><br></pre></td></tr></table></figure>
 <p>后面的 <code>--allow-unrelated-histories</code> ， 是为了把两个不相干的 分支进行强行合并</p>
-<p>然后再<code>git push</code>就ok啦😎</p>
+<p>然后再 <code>git push</code> 就ok啦 😎</p>
 
     </div>
     
@@ -279,7 +279,7 @@
     <div class="widget">
         <h3 class="title">文章目录</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#然后又报错-说检查本地仓库与远程仓库没有关系-无法合并"><span class="toc-text">然后又报错,说检查本地仓库与远程仓库没有关系,无法合并</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#本地仓库与远程仓库连接后-向远处仓库推送代码时报错："><span class="toc-text">本地仓库与远程仓库连接后，向远处仓库推送代码时报错：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖-然后再push"><span class="toc-text">说无法提交，然后提示我们可以尝试先pull(本地与远程合并,不会覆盖)然后再push</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#然后又报错-说检查本地仓库与远程仓库没有关系-无法合并"><span class="toc-text">然后又报错,说检查本地仓库与远程仓库没有关系,无法合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#具体的解决方法"><span class="toc-text">具体的解决方法:</span></a></li></ol>
         
     </div>
 </aside>
