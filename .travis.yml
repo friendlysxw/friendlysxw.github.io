@@ -15,12 +15,13 @@ notifications:
     on_success: never
     on_failure: always
 
-# S: Build Lifecycle
+# S: 初始时下载依赖包
 # install:
 #   - npm install
 #  - gem install travis
 #  - travis login --pro --github-token ${GH_TOKEN}
 
+#
 before_script:
   - export TZ='Asia/Shanghai'
   - npm install -g gulp
