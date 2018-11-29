@@ -1,7 +1,7 @@
 #--------------------------------------------
 #!/bin/bash
-# author：shenliyang
-# website：https://github.com/shenliyang
+# author：friendlysxw
+# website：https://github.com/friendlysxw
 # slogan：梦想还是要有的，万一实现了呢。
 #--------------------------------------------
 

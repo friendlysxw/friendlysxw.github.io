@@ -3,7 +3,7 @@ node_js: stable
 
 sudo: false
 
-#cache
+#cache#缓存不经常变动的数据
 cache:
   directories:
     - "node_modules"
@@ -16,8 +16,8 @@ notifications:
     on_failure: always
 
 # S: Build Lifecycle
-install:
-  - npm install
+# install:
+#   - npm install
 #  - gem install travis
 #  - travis login --pro --github-token ${GH_TOKEN}
 
