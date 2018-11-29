@@ -16,8 +16,8 @@ notifications:
     on_failure: always
 
 # S: Build Lifecycle
-install:
-  - npm install
+# install:
+  # - npm install
 #  - gem install travis
 #  - travis login --pro --github-token ${GH_TOKEN}
 
