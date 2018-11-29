@@ -468,7 +468,7 @@ pre {
 }
 .post .post-content p.brief {
   overflow: hidden;
-  color: #ccc;
+  color: #666666;
 }
 .post .post-body {
   margin-top: 15px;
@@ -610,11 +610,11 @@ pre {
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
-  color: #ccc;
+  color: #666666;
 }
 .post-content figure figcaption a {
   text-decoration: none;
-  color: #ccc;
+  color: #666666;
 }
 .post-content figure iframe {
   margin: auto;
@@ -626,10 +626,10 @@ pre {
   margin: 0 0 1.64em 0;
   border-left: 3px solid #e67e22;
   padding-left: 12px;
-  color: #ccc;
+  color: #666666;
 }
 .post-content blockquote a {
-  color: #ccc;
+  color: #666666;
 }
 .post-content ul {
   margin: 0 0 24px 6px;
@@ -757,7 +757,7 @@ pre {
 }
 .pagination a {
   background: #fff;
-  color: #ccc;
+  color: #666666;
   text-align: center;
   display: inline-block;
   -webkit-border-radius: 2px;
@@ -1068,7 +1068,7 @@ pre {
 }
 .widget #search-form #result-wrap #search-result .item .content {
   font-size: 14px;
-  color: #ccc;
+  color: #666666;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
@@ -1122,7 +1122,7 @@ pre {
   background: #111;
   font-size: 13px;
   text-align: center;
-  color: #ccc;
+  color: #666666;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid #303030;
@@ -1131,7 +1131,7 @@ pre {
   margin: 0 .5em;
 }
 .copyright a {
-  color: #ccc;
+  color: #666666;
 }
 /*====================================================
    back-to-top and toc-btn
@@ -1279,7 +1279,7 @@ pre {
   height: 44px;
   line-height: 44px;
   font-size: 30px;
-  color: #ccc;
+  color: #666666;
   font-weight: bold;
   padding-left: 75px;
   margin-bottom: 25px;
@@ -1318,7 +1318,7 @@ pre {
   margin: 0;
 }
 .timeline ul li h3 span {
-  color: #ccc;
+  color: #666666;
   font-size: 12px;
   margin-left: 3px;
 }
@@ -1366,7 +1366,7 @@ code {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  color: #ccc;
+  color: #666666;
   background: #eee;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1427,6 +1427,7 @@ pre .comment {
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
+  color:#ccc;
   background-color: #1d1f21;
 }
 .highlight .line {
