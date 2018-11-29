@@ -23,7 +23,8 @@ menu:
 
 ## favicon
 favicon: /favicon.ico
-
+##头像
+avatar: /img/avatar.png
 ## Feed
 rss: /atom.xml
 
