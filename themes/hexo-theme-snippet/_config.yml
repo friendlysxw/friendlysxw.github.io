@@ -115,7 +115,7 @@ branding: 技术交流共享，代码改变世界
 
 ## 设置banner背景图片
 banner:
-    img: /img/banner_1.jpg
+    img: /img/banner_3.jpg
 
 ## 设置carousel{@img:图片地址,@url:点击跳转链接(默认值:"javascript:")} 类似于广告位图片与地址
 carousel:
