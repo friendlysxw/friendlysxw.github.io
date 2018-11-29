@@ -16,7 +16,7 @@ timezone:
 url: https://friendlysxw.github.io/friendlysxw.github.io
 root: /
 permalink: :year/:month/:abbrlink.html
-permalink_defaults: :year/:month/:title.html
+permalink_defaults: 
 
 abbrlink:  
   alg: crc32  # 算法：crc16(default) and crc32  
