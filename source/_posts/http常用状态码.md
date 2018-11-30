@@ -13,9 +13,9 @@ img:
 
 ## 常用的状态码如下：
 
-![http_code1](e7a38fcc/http_code1.png)
-![http_code1](e7a38fcc/http_code2.png)
-![http_code1](e7a38fcc/http_code3.png)
+![http_code1](/2018/11/e7a38fcc/http_code1.png)
+![http_code1](/2018/11/e7a38fcc/http_code2.png)
+![http_code1](/2018/11/e7a38fcc/http_code3.png)
 
 常用返回的状态码：
 
