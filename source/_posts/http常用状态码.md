@@ -2,7 +2,6 @@
 title: http常用状态码
 categories:
   - http
-  - 后端
 tags:
   - http状态码
 comments: true
@@ -17,7 +16,7 @@ img:
 ![http_code1](/2018/11/e7a38fcc/http_code2.png)
 ![http_code1](/2018/11/e7a38fcc/http_code3.png)
 
-常用返回的状态码：
+接口开发时常用返回的状态码：
 
 ~~~php
 $_http_code = [

@@ -4,9 +4,9 @@ node_js: stable
 sudo: false
 
 #cache#缓存不经常变动的数据
-cache:
-  directories:
-    - "node_modules"
+# cache:
+#   directories:
+#     - "node_modules"
 
 notifications:
   email:
@@ -24,7 +24,7 @@ notifications:
 #
 before_script:
   - export TZ='Asia/Shanghai'
-  - npm install -g gulp
+  # - npm install -g gulp
   - chmod +x _travis.sh
 
 script:
