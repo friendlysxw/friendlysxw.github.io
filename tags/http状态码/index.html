@@ -31,7 +31,7 @@
     <!--Title-->
 
 
-<title>git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案 | TQK</title>
+<title>标签: http状态码 | TQK</title>
 
 
     <link rel="alternate" href="/atom.xml" title="TQK" type="application/atom+xml">
@@ -152,127 +152,42 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content m-post">
-                    <p id="process"></p>
-<article class="post">
-    <div class="post-head">
-        <h1 id="git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案">
-            
-	            git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案
-            
-        </h1>
-        <div class="post-meta">
+                <main class="col-md-8 main-content ">
+                    <h3>
+    
+        http状态码
     
     
-    <span class="categories-meta fa-wrap">
-        <i class="fa fa-folder-open-o"></i>
-        <a href="/categories/工具">
-            工具
-        </a>
-    </span>
-    
+</h3>
 
-    
-    <span class="fa-wrap">
-        <i class="fa fa-tags"></i>
-        <span class="tags-meta">
-            
+    <article class="post">
+        
+        <div class="post-content">
+            <div class="post-head home-post-head">
+                <h1 class="post-title">
+                    <a href="/2018/11/e7a38fcc.html">http常用状态码</a>
+                </h1>
+                <div class="post-meta">  &bull;
+                    <time class="post-date" datetime="" title="">
+                        2018年11月30日
+                    </time>
+                </div>
+            </div>
+            <p class="brief">
                 
-                    <a href="/tags/git" title="git">
-                        git
-                    </a>
+                    常用的状态码如下：
+
+
+
+常用返回的状态码：
+1234567$_http_code = [    200 =&amp;gt; &#34;OK&#34;,                   // 成功    400 =&amp;gt; &#34;Bad Request&#34;, ...
                 
-            
-        </span>
-    </span>
-    
-
-    
-        
-        <span class="fa-wrap">
-            <i class="fa fa-clock-o"></i>
-            <span class="date-meta">2018/11/29</span>
-        </span>
-        
-            <span class="fa-wrap">
-                <i class="fa fa-eye"></i>
-                <span id="busuanzi_value_page_pv"></span>
-            </span>
-        
-    
-</div>
-
-            
-            
-    </div>
-    
-    <div class="post-body post-content">
-        <h3 id="本地仓库与远程仓库连接后-向远处仓库推送代码-git-push-时报错："><a class="header-anchor" href="#本地仓库与远程仓库连接后-向远处仓库推送代码-git-push-时报错："></a>本地仓库与远程仓库连接后，向远处仓库推送代码（git push）时报错：</h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error: failed to push some refs to &apos;https://github.com/friendlysxw/shop_app.git&apos;</span><br></pre></td></tr></table></figure>
-<h3 id="说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖"><a class="header-anchor" href="#说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖"></a>说无法提交，然后提示我们可以尝试先pull(本地与远程合并,不会覆盖):</h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hint: &apos;git pull ...&apos;) before pushing again.</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull时又报错-说检查本地仓库与远程仓库的分支没有任何关系-无法合并"><a class="header-anchor" href="#git-pull时又报错-说检查本地仓库与远程仓库的分支没有任何关系-无法合并"></a>git pull时又报错,说检查本地仓库与远程仓库的分支没有任何关系,无法合并:</h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
-<h3 id="最终的解决方案是"><a class="header-anchor" href="#最终的解决方案是"></a>最终的解决方案是:</h3>
-<p><code>git pull</code>时使用这个强制的方法 ：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master --allow-unrelated-histories</span><br></pre></td></tr></table></figure>
-<p>后面的 <code>--allow-unrelated-histories</code> ， 是为了把两个不相干的 分支进行强行合并</p>
-<p>然后再 <code>git push</code> 就ok啦 😎</p>
-
-    </div>
-    
-    <div class="post-footer">
-        <div>
-            
+            </p>
         </div>
-        <div>
-            
-        </div>
-    </div>
-</article>
-
-<div class="article-nav prev-next-wrap clearfix">
-    
-        <a href="/2018/11/e7a38fcc.html" class="pre-post btn btn-default" title="http常用状态码">
-            <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">http常用状态码</span>
-        </a>
-    
-    
-        <a href="/2018/11/e9bc0c14.html" class="next-post btn btn-default" title="hexo极速搭建个人博客">
-            <span class="hidden-lg">下一篇</span>
-            <span class="hidden-xs">hexo极速搭建个人博客</span><i class="fa fa-angle-right fa-fw"></i>
-        </a>
-    
-</div>
+    </article>
+ 
 
 
-    <div id="comments">
-        
-    
-    <div id="vcomments" class="valine"></div>
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="/assets/valine.min.js"></script>
-
-    <script>
-        new Valine({
-            av: AV,
-            el: '#vcomments',
-            appId: 'CruYqRe6MRbSARmzqh0ObdhU-gzGzoHsz',
-            appKey: '33iP2kOLPGSHrhddV2KExopk',
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊! (为了防止刷评论，启用了评论验证，请理解)',
-            notify: false,
-            verify: true,
-            avatar: 'wavatar',
-            meta: 'nick,mail'.split(','),
-            pageSize: '10',
-            path: window.location.pathname,
-            lang: 'zh-CN'.toLowerCase()
-        })
-    </script>
-
-
-    </div>
 
 
 
@@ -280,14 +195,134 @@
 
                 </main>
                 
-                    <aside id="article-toc" role="navigation" class="col-md-4">
-    <div class="widget">
-        <h3 class="title">文章目录</h3>
+                    
+    <aside class="col-md-4 sidebar">
+        <iframe src="/music/index.html" id="iframe" frameborder="0" width="100%" scrolling="auto"></iframe>
         
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#本地仓库与远程仓库连接后-向远处仓库推送代码-git-push-时报错："><span class="toc-text">本地仓库与远程仓库连接后，向远处仓库推送代码（git push）时报错：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖"><span class="toc-text">说无法提交，然后提示我们可以尝试先pull(本地与远程合并,不会覆盖):</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#git-pull时又报错-说检查本地仓库与远程仓库的分支没有任何关系-无法合并"><span class="toc-text">git pull时又报错,说检查本地仓库与远程仓库的分支没有任何关系,无法合并:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#最终的解决方案是"><span class="toc-text">最终的解决方案是:</span></a></li></ol>
+        
+    <div class="widget">
+        <h3 class="title">搜索</h3>
+        <div id="search-form">
+            <div id="result-mask" class="hide"></div>
+            <div class="search-area">
+                
+                    <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢？">
+                    <button type="button" class="search-form-submit" id="search-local">站内搜索</button>
+                
+                
+            </div>
+            <div id="result-wrap" class="hide">
+                <div id="search-result"></div>
+            </div>
+            <div class="hide">
+                <template id="search-tpl">
+                    <div class="item">
+                        <a href="/{path}" title="{title}">
+                            <div class="title">{title}</div>
+                            <div class="content">{content}</div>
+                        </a>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+
+        
+        
+    <div class="widget">
+        <h3 class="title">网站公告</h3>
+        <div class="notification">
+            <p>
+    主题使用：<a href="https://github.com/shenliyang/hexo-theme-snippet/blob/master/README.md#常见问题" title="" target="_blank">常见使用问题</a> <br>
+</p>
+        </div>
+    </div>
+
+        
+        
+    <div class="widget">
+      <h3 class="title">社交</h3> 
+        <div class="content social">
+            
+                
+                    <a href="//github.com/friendlysxw" rel="external nofollow" title="Github" target="_blank">
+                        <i class="git fa fa-git"></i>
+                    </a>
+                
+            
+                
+                    <a href="javascript:;" rel="external nofollow" title="邮箱" class="account">
+                        <i class="envelope-o fa fa-envelope-o"></i>
+                        <span>friendlysxw@163.com</span>
+                    </a>
+                
+            
+                
+                    <a href="javascript:;" rel="external nofollow" title="联系QQ" class="account">
+                        <i class="qq fa fa-qq"></i>
+                        <span>2867987085</span>
+                    </a>
+                
+            
+                
+                    <a href="javascript:;" rel="external nofollow" title="微信" class="account">
+                        <i class="weixin fa fa-weixin"></i>
+                        <span>sxw041646</span>
+                    </a>
+                
+            
+                
+                    <a href="/atom.xml" rel="external nofollow" title="RSS" target="_blank">
+                        <i class="feed fa fa-feed"></i>
+                    </a>
+                
+            
+        </div>
+    </div>
+
+
+        
+        
+    <div class="widget">
+        <h3 class="title">分类</h3>
+        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/http/"><i class="fa" aria-hidden="true">http</i></a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/http/后端/"><i class="fa" aria-hidden="true">后端</i></a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/"><i class="fa" aria-hidden="true">工具</i></a><span class="category-list-count">2</span></li></ul>
+    </div>
+
+
+        
+        
+    <div class="widget">
+        <h3 class="title">归档</h3>
+        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/"><i class="fa" aria-hidden="true">2018年11月</i></a><span class="archive-list-count">3</span></li></ul>
+    </div>
+
+
+        
+        
+  <div class="widget">
+    <h3 class="title">标签云</h3>
+    <div class="content tag-cloud">
+        
+            <a href="/tags/git/" style="font-size: 20px;">git</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/http状态码/" style="font-size: 10px;">http状态码</a>
         
     </div>
-</aside>
+  </div>
+
+
+        
+        
+    <div class="widget">
+        <h3 class="title">友链</h3>
+        <div class="content friends-link">
+        
+            <a href="http://47.93.213.15/" class="fa" target="_blank">IT全栈大佬(胖胖)</a>
+        
+        </div>
+    </div>
+
+
+        
+    </aside>
 
                 
             </div>
@@ -340,6 +375,8 @@
     </div>
 </div>
 
+
+	<script src="/js/search.js?rev=@@hash"></script>
 
 
 

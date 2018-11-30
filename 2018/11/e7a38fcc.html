@@ -31,7 +31,7 @@
     <!--Title-->
 
 
-<title>git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案 | TQK</title>
+<title>http常用状态码 | TQK</title>
 
 
     <link rel="alternate" href="/atom.xml" title="TQK" type="application/atom+xml">
@@ -156,9 +156,9 @@
                     <p id="process"></p>
 <article class="post">
     <div class="post-head">
-        <h1 id="git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案">
+        <h1 id="http常用状态码">
             
-	            git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案
+	            http常用状态码
             
         </h1>
         <div class="post-meta">
@@ -166,8 +166,8 @@
     
     <span class="categories-meta fa-wrap">
         <i class="fa fa-folder-open-o"></i>
-        <a href="/categories/工具">
-            工具
+        <a href="/categories/后端">
+            后端
         </a>
     </span>
     
@@ -178,8 +178,8 @@
         <span class="tags-meta">
             
                 
-                    <a href="/tags/git" title="git">
-                        git
+                    <a href="/tags/http状态码" title="http状态码">
+                        http状态码
                     </a>
                 
             
@@ -191,7 +191,7 @@
         
         <span class="fa-wrap">
             <i class="fa fa-clock-o"></i>
-            <span class="date-meta">2018/11/29</span>
+            <span class="date-meta">2018/11/30</span>
         </span>
         
             <span class="fa-wrap">
@@ -207,17 +207,12 @@
     </div>
     
     <div class="post-body post-content">
-        <h3 id="本地仓库与远程仓库连接后-向远处仓库推送代码-git-push-时报错："><a class="header-anchor" href="#本地仓库与远程仓库连接后-向远处仓库推送代码-git-push-时报错："></a>本地仓库与远程仓库连接后，向远处仓库推送代码（git push）时报错：</h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">error: failed to push some refs to &apos;https://github.com/friendlysxw/shop_app.git&apos;</span><br></pre></td></tr></table></figure>
-<h3 id="说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖"><a class="header-anchor" href="#说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖"></a>说无法提交，然后提示我们可以尝试先pull(本地与远程合并,不会覆盖):</h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hint: &apos;git pull ...&apos;) before pushing again.</span><br></pre></td></tr></table></figure>
-<h3 id="git-pull时又报错-说检查本地仓库与远程仓库的分支没有任何关系-无法合并"><a class="header-anchor" href="#git-pull时又报错-说检查本地仓库与远程仓库的分支没有任何关系-无法合并"></a>git pull时又报错,说检查本地仓库与远程仓库的分支没有任何关系,无法合并:</h3>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
-<h3 id="最终的解决方案是"><a class="header-anchor" href="#最终的解决方案是"></a>最终的解决方案是:</h3>
-<p><code>git pull</code>时使用这个强制的方法 ：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master --allow-unrelated-histories</span><br></pre></td></tr></table></figure>
-<p>后面的 <code>--allow-unrelated-histories</code> ， 是为了把两个不相干的 分支进行强行合并</p>
-<p>然后再 <code>git push</code> 就ok啦 😎</p>
+        <h2 id="常用的状态码如下："><a class="header-anchor" href="#常用的状态码如下："></a>常用的状态码如下：</h2>
+<p><img src="e7a38fcc/http_code1.png" alt="http_code1"><br>
+<img src="e7a38fcc/http_code2.png" alt="http_code1"><br>
+<img src="e7a38fcc/http_code3.png" alt="http_code1"></p>
+<p>常用返回的状态码：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$_http_code = [</span><br><span class="line">    <span class="number">200</span> =&gt; <span class="string">"OK"</span>,                   <span class="comment">// 成功</span></span><br><span class="line">    <span class="number">400</span> =&gt; <span class="string">"Bad Request"</span>,          <span class="comment">// 请求数据有问题</span></span><br><span class="line">    <span class="number">401</span> =&gt; <span class="string">"Unauthorized"</span>,         <span class="comment">// 未登录</span></span><br><span class="line">    <span class="number">403</span> =&gt; <span class="string">"Forbidden"</span>,            <span class="comment">// 登录但没有权限</span></span><br><span class="line">    <span class="number">404</span> =&gt; <span class="string">"Not Found"</span>,            <span class="comment">// 请求数据没找到</span></span><br><span class="line">];</span><br></pre></td></tr></table></figure>
 
     </div>
     
@@ -233,15 +228,10 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2018/11/e7a38fcc.html" class="pre-post btn btn-default" title="http常用状态码">
-            <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">http常用状态码</span>
-        </a>
     
-    
-        <a href="/2018/11/e9bc0c14.html" class="next-post btn btn-default" title="hexo极速搭建个人博客">
+        <a href="/2018/11/62daca3c.html" class="next-post btn btn-default" title="git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案">
             <span class="hidden-lg">下一篇</span>
-            <span class="hidden-xs">hexo极速搭建个人博客</span><i class="fa fa-angle-right fa-fw"></i>
+            <span class="hidden-xs">git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案</span><i class="fa fa-angle-right fa-fw"></i>
         </a>
     
 </div>
@@ -284,7 +274,7 @@
     <div class="widget">
         <h3 class="title">文章目录</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#本地仓库与远程仓库连接后-向远处仓库推送代码-git-push-时报错："><span class="toc-text">本地仓库与远程仓库连接后，向远处仓库推送代码（git push）时报错：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#说无法提交-然后提示我们可以尝试先pull-本地与远程合并-不会覆盖"><span class="toc-text">说无法提交，然后提示我们可以尝试先pull(本地与远程合并,不会覆盖):</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#git-pull时又报错-说检查本地仓库与远程仓库的分支没有任何关系-无法合并"><span class="toc-text">git pull时又报错,说检查本地仓库与远程仓库的分支没有任何关系,无法合并:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#最终的解决方案是"><span class="toc-text">最终的解决方案是:</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#常用的状态码如下："><span class="toc-text">常用的状态码如下：</span></a></li></ol>
         
     </div>
 </aside>
