@@ -67,14 +67,14 @@ social:
    icon: envelope-o
    href: 
    account: friendlysxw@163.com
- - name: 联系QQ
+ - name: 联系QQ(说书人)
    icon: qq
    href: 
-   account: <pre>2867987085<br>(说书人)</pre>
- - name: 微信
+   account: 2867987085
+ - name: 微信(听曲客)
    icon: weixin
    href: /
-   account: <pre>sxw041646<br>(听曲客)</pre>
+   account: sxw041646
  - name: RSS
    icon: feed
    href: /atom.xml
