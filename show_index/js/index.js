@@ -44,7 +44,7 @@ var height = window.innerHeight;
 var textSize = 0;
 var textCenter = 0;
 var letters = [];
-var prompt = ['hello',' ','i','`','m',' ','t','q','k','&','from',' ','north'];
+var prompt = ['hello',' ','i','`','m',' ','t','q','k','&'];
 var runPrompt = true;
 
 var resizePage = function resizePage() {
