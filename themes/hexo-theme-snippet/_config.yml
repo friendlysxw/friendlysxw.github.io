@@ -200,7 +200,7 @@ valine:
    enable: true
    appId: CruYqRe6MRbSARmzqh0ObdhU-gzGzoHsz
    appKey: 33iP2kOLPGSHrhddV2KExopk
-   placeholder: ヾﾉ≧∀≦)o来啊，快活啊! (为了防止刷评论，启用了评论验证，请理解)
+   placeholder: ヾﾉ≧∀≦)o来啊，快活啊!    (为了防止刷评论，启用了评论验证，请理解)
    notify: false
    verify: true
    avatar: wavatar
@@ -215,7 +215,7 @@ visit_counter:
 ## 网站访问统计分析
 
 ### 网盟CNZZ统计
-cnzz_analytics: 1263868967
+cnzz_analytics: 
 
 ### 百度统计
 baidu_analytics:
