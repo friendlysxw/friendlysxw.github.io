@@ -188,7 +188,10 @@ html h2, body h2 {
   background-image: url(../images/bg.jpg);
   background-size: cover;
 }
-
+#back .back-info a{
+  text-decoration: none;
+  color: #6f9add;
+}
 @keyframes arrowWiggle {
   0% {
     right: 50px;
