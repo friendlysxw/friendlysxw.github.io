@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  transition: .2.5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 html, body {
@@ -29,7 +29,7 @@ html h2, body h2 {
 }
 #wrapper.loaded {
   opacity: 1;
-  transition: 1.5s ease-in-out;
+  transition: 2.5s ease-in-out;
 }
 #wrapper #content {
   display: table-cell;
