@@ -1,5 +1,5 @@
 ---
-title: "git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案"
+title: "git pull报错 (fatal: refusing to merge unrelated histories) 的解决方案1"
 categories:
   - 工具
 tags:
